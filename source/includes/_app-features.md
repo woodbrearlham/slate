@@ -27,6 +27,6 @@ Earlham Day is a single day that Earlham seeks donations, to help continue the g
     }
 ```
 <aside class="notice">AJAX Automatically loads new data without page refresh</aside>
-<img src='../images/apps/earlhamday/recent-donations.png'/>
+<img src='/images/apps/earlhamday/recent-donations.png'/>
 
 ## Podcasts
