@@ -200,7 +200,7 @@
       <script src="javascripts/all.js"></script>
   </head>
 
-  <body class="index" data-languages="[&quot;csharp&quot;,&quot;javascript&quot;]">
+  <body class="index" data-languages="[&quot;javascript&quot;,&quot;json--properties&quot;]">
     <a href="#" id="nav-button">
       <span>
         NAV
@@ -210,8 +210,8 @@
     <div class="tocify-wrapper">
       <img src="images/logo.png" alt="Logo" />
         <div class="lang-selector">
-              <a href="#" data-language-name="csharp">csharp</a>
               <a href="#" data-language-name="javascript">javascript</a>
+              <a href="#" data-language-name="json--properties">json--properties</a>
         </div>
         <div class="search">
           <input type="text" class="search" id="input-search" placeholder="Search">
@@ -233,6 +233,25 @@
 <aside class="success">
 Remember — a happy kitten is an authenticated kitten!
 </aside>
+
+<table><thead>
+<tr>
+<th>Feature</th>
+<th>Development Server</th>
+<th>Production Server</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Earlham Day</td>
+<td>X</td>
+<td></td>
+</tr>
+<tr>
+<td>Podcast</td>
+<td>X</td>
+<td>X</td>
+</tr>
+</tbody></table>
 
           <h1 id="home-page">Home Page</h1>
 
@@ -283,6 +302,38 @@ Remember — a happy kitten is an authenticated kitten!
 </tbody></table>
 <pre class="highlight csharp tab-csharp"><code><span class="c1">///Code snippet</span>
 </code></pre>
+          <h1 id="app-features">App Features</h1>
+
+<h2 id="earlham-day">Earlham Day</h2>
+
+<p>Earlham Day is a single day that Earlham seeks donations, to help continue the goals of Earlham. In prior years updates on the day had to manually be edited. Starting in 2017 donation data is updated in close to real-time.</p>
+
+<h2 id="earlham-day-goal-macro">Earlham Day - Goal (Macro)</h2>
+<pre class="highlight json tab-json--properties"><code><span class="w">    </span><span class="s2">"goalfolder"</span><span class="p">:{</span><span class="w">
+      </span><span class="s2">"Alias"</span><span class="p">:</span><span class="w"> </span><span class="s2">"goalfolder"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"Name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Goal Folder"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"Type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Content Picker"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span></code></pre>
+<aside class="notice">AJAX Automatically loads new data without page refresh</aside>
+
+<h3 id="site-wide-goals">Site Wide Goals</h3>
+
+<h3 id="donation-goals">Donation Goals</h3>
+
+<h2 id="earlham-day-recent-donations-macro">Earlham Day - Recent Donations (Macro)</h2>
+<pre class="highlight json tab-json--properties"><code><span class="w">    </span><span class="s2">"donationCount"</span><span class="p">:{</span><span class="w">
+      </span><span class="s2">"Alias"</span><span class="p">:</span><span class="w"> </span><span class="s2">"donationCount"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"Name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Max # of Donations"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"Type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Number"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span></code></pre>
+<aside class="notice">AJAX Automatically loads new data without page refresh</aside>
+
+<p><img src='../images/apps/earlhamday/recent-donations.png'/></p>
+
+<h2 id="podcasts">Podcasts</h2>
+
           <h1 id="errors">Errors</h1>
 
 <aside class="notice">This error section is stored in a separate file in `includes/_errors.md`. Slate allows you to optionally separate out your docs into many files&hellip;just save them to the `includes` folder and add them to the top of your `index.md`&lsquo;s frontmatter. Files are included in the order listed.</aside>
@@ -344,8 +395,8 @@ Remember — a happy kitten is an authenticated kitten!
       </div>
       <div class="dark-box">
           <div class="lang-selector">
-                <a href="#" data-language-name="csharp">csharp</a>
                 <a href="#" data-language-name="javascript">javascript</a>
+                <a href="#" data-language-name="json--properties">json--properties</a>
           </div>
       </div>
     </div>
