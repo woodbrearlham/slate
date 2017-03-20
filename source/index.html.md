@@ -4,6 +4,7 @@ title: Earlham.edu Documentation
 language_tabs:
   - javascript
   - json--properties
+  - csharp
 
 
 toc_footers:
