@@ -131,19 +131,23 @@ The homepage received a refresh Jan of 2017.
 
 - Settings > Templates > Earlham > Home
 
-## EPIC section
+## Be An Earlhamite
+<img src='/images/homepage/be-an-earlhamite.gif' />
 
+## EPIC section
+<img src='/images/homepage/epic-section.png' />
 ## Infographic Stats
+<img src='/images/homepage/info-graphic.gif' />
 
 ## News Hero
-
+<img src='/images/homepage/news-hero.png' />
 ## News & Events Slider
 
 ```plaintext
   ga('send', 'event', 'homepage-click',
      'news-click', 'Earlham competition to offer $40K in seed capital for world-changing business ideas');
 ```
-
+<img src='/images/homepage/news-events.gif' />
 ## Footer
 
 ### Footer Links
