@@ -8,7 +8,7 @@ Earlham Day is a single day that Earlham seeks donations, to help continue the g
 
 ## Earlham Day - Goal (Macro)
 
-```json--properties
+```json
     "goalfolder":{
       "Alias": "goalfolder",
       "Name": "Goal Folder",
@@ -19,7 +19,7 @@ Earlham Day is a single day that Earlham seeks donations, to help continue the g
 ### Site Wide Goals
 ### Donation Goals
 ## Earlham Day - Recent Donations (Macro)
-```json--properties
+```json
     "donationCount":{
       "Alias": "donationCount",
       "Name": "Max # of Donations",

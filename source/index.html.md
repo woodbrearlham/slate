@@ -2,9 +2,10 @@
 title: Earlham.edu Documentation
 
 language_tabs:
-  - javascript
-  - json--properties
-  - csharp
+  - json: Properties
+  - plaintext: Google Analytics
+  - csharp: Razor Script
+  - html: HTML
 
 
 toc_footers:
@@ -30,5 +31,5 @@ Remember — a happy kitten is an authenticated kitten!
 
 Feature | Development Server | Production Server
 -------------- | -------------- | --------------
-Earlham Day | X |
+Earlham Day | <i class="icon icon-ok-sign" /> |
 Podcast | X | X

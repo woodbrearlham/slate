@@ -1,7 +1,9 @@
 #Home Page
 
+The homepage received a refresh Jan of 2017.
+
 ## Hero Video (Macro)
-```csharp
+```html
 <script src="/scripts/jquery.mb.YTPlayer.min.js"></script>
 
 <style>
@@ -66,7 +68,7 @@
 - Update: v="" in data-property
 
 ## Text Carousel
-```csharp
+```html
 <section id="quotes" data-anchor="quotes" class="module callout-container fp-auto-height">
     <div class="module-inner container">
         <div id="text-carousel" class="carousel slide" data-ride="carousel" data-wrap="true" data-keyboard="true">
@@ -137,7 +139,7 @@
 
 ## News & Events Slider
 
-```javascript
+```plaintext
   ga('send', 'event', 'homepage-click',
      'news-click', 'Earlham competition to offer $40K in seed capital for world-changing business ideas');
 ```
