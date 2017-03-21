@@ -200,7 +200,7 @@
       <script src="javascripts/all.js"></script>
   </head>
 
-  <body class="index" data-languages="[&quot;javascript&quot;,&quot;json--properties&quot;,&quot;csharp&quot;]">
+  <body class="index" data-languages="[&quot;json&quot;,&quot;plaintext&quot;,&quot;csharp&quot;,&quot;html&quot;]">
     <a href="#" id="nav-button">
       <span>
         NAV
@@ -210,9 +210,10 @@
     <div class="tocify-wrapper">
       <img src="images/logo.png" alt="Logo" />
         <div class="lang-selector">
-              <a href="#" data-language-name="javascript">javascript</a>
-              <a href="#" data-language-name="json--properties">json--properties</a>
-              <a href="#" data-language-name="csharp">csharp</a>
+              <a href="#" data-language-name="json">Properties</a>
+              <a href="#" data-language-name="plaintext">Google Analytics</a>
+              <a href="#" data-language-name="csharp">Razor Script</a>
+              <a href="#" data-language-name="html">HTML</a>
         </div>
         <div class="search">
           <input type="text" class="search" id="input-search" placeholder="Search">
@@ -244,7 +245,7 @@ Remember — a happy kitten is an authenticated kitten!
 </thead><tbody>
 <tr>
 <td>Earlham Day</td>
-<td>X</td>
+<td><i class="icon icon-ok-sign" /></td>
 <td></td>
 </tr>
 <tr>
@@ -256,61 +257,63 @@ Remember — a happy kitten is an authenticated kitten!
 
           <h1 id="home-page">Home Page</h1>
 
+<p>The homepage received a refresh Jan of 2017.</p>
+
 <h2 id="hero-video-macro">Hero Video (Macro)</h2>
-<pre class="highlight csharp tab-csharp"><code><span class="p">&lt;</span><span class="n">script</span> <span class="n">src</span><span class="p">=</span><span class="s">"/scripts/jquery.mb.YTPlayer.min.js"</span><span class="p">&gt;&lt;/</span><span class="n">script</span><span class="p">&gt;</span>
+<pre class="highlight html tab-html"><code><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"/scripts/jquery.mb.YTPlayer.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
 
-<span class="p">&lt;</span><span class="n">style</span><span class="p">&gt;</span>
-    <span class="p">.</span><span class="n">heading</span><span class="p">-</span><span class="n">main</span> <span class="p">{</span>
-    <span class="n">font</span><span class="p">-</span><span class="n">family</span><span class="p">:</span> <span class="err">'</span><span class="n">YWFTPakt</span><span class="err">'</span><span class="p">;</span>
-    <span class="n">font</span><span class="p">-</span><span class="n">size</span><span class="p">:</span> <span class="m">34</span><span class="n">pt</span><span class="p">;</span>
-    <span class="n">line</span><span class="p">-</span><span class="n">height</span><span class="p">:</span> <span class="m">1.2</span><span class="n">em</span><span class="p">;</span>
-    <span class="n">text</span><span class="p">-</span><span class="n">transform</span><span class="p">:</span> <span class="n">uppercase</span><span class="p">;</span>
-    <span class="n">text</span><span class="p">-</span><span class="n">align</span><span class="p">:</span> <span class="n">left</span><span class="p">;</span>
-    <span class="n">margin</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
-        <span class="n">color</span><span class="p">:</span> <span class="err">#</span><span class="n">FFF</span><span class="p">;</span>
+<span class="nt">&lt;style&gt;</span>
+    <span class="nc">.heading-main</span> <span class="p">{</span>
+    <span class="nl">font-family</span><span class="p">:</span> <span class="s2">'YWFTPakt'</span><span class="p">;</span>
+    <span class="nl">font-size</span><span class="p">:</span> <span class="m">34pt</span><span class="p">;</span>
+    <span class="nl">line-height</span><span class="p">:</span> <span class="m">1.2em</span><span class="p">;</span>
+    <span class="nl">text-transform</span><span class="p">:</span> <span class="nb">uppercase</span><span class="p">;</span>
+    <span class="nl">text-align</span><span class="p">:</span> <span class="nb">left</span><span class="p">;</span>
+    <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+        <span class="nl">color</span><span class="p">:</span> <span class="m">#FFF</span><span class="p">;</span>
     <span class="p">}</span>
-<span class="p">.</span><span class="n">heading</span> <span class="p">{</span>
-        <span class="n">border</span><span class="p">:</span> <span class="m">2</span><span class="n">px</span> <span class="n">solid</span> <span class="n">white</span><span class="p">;</span>
-    <span class="n">padding</span><span class="p">:</span> <span class="m">20</span><span class="n">px</span><span class="p">;</span>
+<span class="nc">.heading</span> <span class="p">{</span>
+        <span class="nl">border</span><span class="p">:</span> <span class="m">2px</span> <span class="nb">solid</span> <span class="no">white</span><span class="p">;</span>
+    <span class="nl">padding</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
 <span class="p">}</span>
-<span class="p">&lt;/</span><span class="n">style</span><span class="p">&gt;</span>
-<span class="p">&lt;!--</span><span class="n">Video</span> <span class="n">Section</span><span class="p">--&gt;</span>
-<span class="p">&lt;</span><span class="n">section</span> <span class="k">class</span><span class="err">="</span><span class="nc">content</span><span class="p">-</span><span class="n">section</span> <span class="n">video</span><span class="p">-</span><span class="n">section</span><span class="s">" &gt;
-</span>    <span class="p">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="err">="</span><span class="nc">pattern</span><span class="p">-</span><span class="n">overlay</span><span class="s">"&gt;
-</span>    <span class="p">&lt;</span><span class="n">a</span> <span class="n">id</span><span class="p">=</span><span class="s">"bgndVideo"</span> <span class="k">class</span><span class="err">="</span><span class="nc">player</span><span class="s">" data-property="</span><span class="p">{</span>
-      <span class="n">videoURL</span><span class="p">:</span><span class="err">'</span><span class="n">https</span><span class="p">:</span><span class="c1">//www.youtube.com/watch?v=whwhNrfcqZU',</span>
-      <span class="n">containment</span><span class="p">:</span><span class="err">'</span><span class="p">.</span><span class="n">video</span><span class="p">-</span><span class="n">section</span><span class="err">'</span><span class="p">,</span>
-      <span class="n">quality</span><span class="p">:</span><span class="err">'</span><span class="n">large</span><span class="err">'</span><span class="p">,</span>
-      <span class="n">autoPlay</span><span class="p">:</span><span class="k">true</span><span class="p">,</span>
-      <span class="n">mute</span><span class="p">:</span><span class="k">true</span><span class="p">,</span>
-      <span class="n">opacity</span><span class="p">:</span><span class="m">1</span><span class="p">,</span>
-      <span class="n">loop</span><span class="p">:</span><span class="k">true</span>
-    <span class="p">}</span><span class="s">"&gt;bg&lt;/a&gt;
-</span>    <span class="p">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="err">="</span><span class="nc">callout</span><span class="p">-</span><span class="n">container</span><span class="s">"&gt;
-</span>      <span class="p">&lt;</span><span class="n">a</span> <span class="n">style</span><span class="p">=</span><span class="s">"cursor:pointer;"</span> <span class="k">class</span><span class="err">="</span><span class="nc">video</span><span class="p">-</span><span class="n">modal</span><span class="p">-</span><span class="n">toggle</span><span class="s">"&gt;&lt;div class="</span><span class="n">row</span><span class="s">"&gt;&lt;/div&gt;&lt;/a&gt;
-</span>    <span class="p">&lt;/</span><span class="n">div</span><span class="p">&gt;</span>
-  <span class="p">&lt;/</span><span class="n">div</span><span class="p">&gt;</span>
-  <span class="p">&lt;/</span><span class="n">div</span><span class="p">&gt;</span>
-<span class="p">&lt;/</span><span class="n">section</span><span class="p">&gt;</span>
+<span class="nt">&lt;/style&gt;</span>
+<span class="c">&lt;!--Video Section--&gt;</span>
+<span class="nt">&lt;section</span> <span class="na">class=</span><span class="s">"content-section video-section"</span> <span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"pattern-overlay"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">id=</span><span class="s">"bgndVideo"</span> <span class="na">class=</span><span class="s">"player"</span> <span class="na">data-property=</span><span class="s">"{
+      videoURL:'https://www.youtube.com/watch?v=whwhNrfcqZU',
+      containment:'.video-section',
+      quality:'large',
+      autoPlay:true,
+      mute:true,
+      opacity:1,
+      loop:true
+    }"</span><span class="nt">&gt;</span>bg<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"callout-container"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">style=</span><span class="s">"cursor:pointer;"</span> <span class="na">class=</span><span class="s">"video-modal-toggle"</span><span class="nt">&gt;&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;&lt;/div&gt;&lt;/a&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/section&gt;</span>
 
-            <span class="p">&lt;</span><span class="n">script</span><span class="p">&gt;</span>
-            <span class="err">$</span><span class="p">(</span><span class="n">document</span><span class="p">).</span><span class="nf">ready</span><span class="p">(</span><span class="nf">function</span> <span class="p">()</span> <span class="p">{</span>
+            <span class="nt">&lt;script&gt;</span>
+            <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
 
-                <span class="err">$</span><span class="p">(</span><span class="s">".player"</span><span class="p">).</span><span class="nf">mb_YTPlayer</span><span class="p">({</span>
-                    <span class="err">'</span><span class="n">ratio</span><span class="sc">':'</span><span class="n">auto</span><span class="err">'</span><span class="p">,</span>
-                    <span class="err">'</span><span class="n">optimizeDisplay</span><span class="sc">':'</span><span class="k">true</span><span class="err">'</span><span class="p">,</span>
-                    <span class="err">'</span><span class="n">align</span><span class="err">'</span><span class="p">:</span> <span class="err">'</span><span class="n">top</span><span class="p">,</span><span class="n">center</span><span class="err">'</span><span class="p">,</span>
-                    <span class="err">'</span><span class="n">autoPlay</span><span class="sc">':'</span><span class="k">true</span><span class="err">'</span><span class="p">,</span>
-                    <span class="err">'</span><span class="n">gaTrack</span><span class="err">'</span><span class="p">:</span> <span class="err">'</span><span class="k">false</span><span class="err">'</span><span class="p">,</span>
+                <span class="nx">$</span><span class="p">(</span><span class="s2">".player"</span><span class="p">).</span><span class="nx">mb_YTPlayer</span><span class="p">({</span>
+                    <span class="s1">'ratio'</span><span class="p">:</span><span class="s1">'auto'</span><span class="p">,</span>
+                    <span class="s1">'optimizeDisplay'</span><span class="p">:</span><span class="s1">'true'</span><span class="p">,</span>
+                    <span class="s1">'align'</span><span class="p">:</span> <span class="s1">'top,center'</span><span class="p">,</span>
+                    <span class="s1">'autoPlay'</span><span class="p">:</span><span class="s1">'true'</span><span class="p">,</span>
+                    <span class="s1">'gaTrack'</span><span class="p">:</span> <span class="s1">'false'</span><span class="p">,</span>
                 <span class="p">});</span>
 
-                <span class="err">$</span><span class="p">(</span><span class="err">'</span><span class="p">.</span><span class="n">video</span><span class="p">-</span><span class="n">modal</span><span class="p">-</span><span class="n">toggle</span><span class="err">'</span><span class="p">).</span><span class="k">on</span><span class="p">(</span><span class="err">'</span><span class="n">click</span><span class="err">'</span><span class="p">,</span> <span class="nf">function</span><span class="p">(</span><span class="k">event</span><span class="p">){</span>
-                    <span class="nf">ga</span><span class="p">(</span><span class="err">'</span><span class="n">send</span><span class="err">'</span><span class="p">,</span> <span class="err">'</span><span class="k">event</span><span class="err">'</span><span class="p">,</span> <span class="err">'</span><span class="n">homepage</span><span class="p">-</span><span class="n">click</span><span class="err">'</span><span class="p">,</span> <span class="err">'</span><span class="n">video</span><span class="p">-</span><span class="n">modal</span><span class="err">'</span><span class="p">,</span> <span class="err">'</span><span class="n">Nowhere</span> <span class="k">is</span> <span class="n">the</span> <span class="n">world</span> <span class="n">closer</span><span class="err">'</span><span class="p">);</span>
+                <span class="nx">$</span><span class="p">(</span><span class="s1">'.video-modal-toggle'</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="s1">'click'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">){</span>
+                    <span class="nx">ga</span><span class="p">(</span><span class="s1">'send'</span><span class="p">,</span> <span class="s1">'event'</span><span class="p">,</span> <span class="s1">'homepage-click'</span><span class="p">,</span> <span class="s1">'video-modal'</span><span class="p">,</span> <span class="s1">'Nowhere is the world closer'</span><span class="p">);</span>
                 <span class="p">});</span>
 
 <span class="p">});</span>
-            <span class="p">&lt;/</span><span class="n">script</span><span class="p">&gt;</span>
-<span class="p">&lt;!--</span><span class="n">Video</span> <span class="n">Section</span> <span class="n">Ends</span> <span class="n">Here</span><span class="p">--&gt;</span>
+            <span class="nt">&lt;/script&gt;</span>
+<span class="c">&lt;!--Video Section Ends Here--&gt;</span>
 
 </code></pre>
 <p><img src='images/homepage/hero-video.png'/></p>
@@ -324,60 +327,60 @@ Remember — a happy kitten is an authenticated kitten!
 </ul>
 
 <h2 id="text-carousel">Text Carousel</h2>
-<pre class="highlight csharp tab-csharp"><code><span class="p">&lt;</span><span class="n">section</span> <span class="n">id</span><span class="p">=</span><span class="s">"quotes"</span> <span class="n">data</span><span class="p">-</span><span class="n">anchor</span><span class="p">=</span><span class="s">"quotes"</span> <span class="k">class</span><span class="err">="</span><span class="nc">module</span> <span class="n">callout</span><span class="p">-</span><span class="n">container</span> <span class="n">fp</span><span class="p">-</span><span class="n">auto</span><span class="p">-</span><span class="n">height</span><span class="s">"&gt;
-</span>    <span class="p">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="err">="</span><span class="nc">module</span><span class="p">-</span><span class="n">inner</span> <span class="n">container</span><span class="s">"&gt;
-</span>        <span class="p">&lt;</span><span class="n">div</span> <span class="n">id</span><span class="p">=</span><span class="s">"text-carousel"</span> <span class="k">class</span><span class="err">="</span><span class="nc">carousel</span> <span class="n">slide</span><span class="s">" data-ride="</span><span class="n">carousel</span><span class="s">" data-wrap="</span><span class="k">true</span><span class="s">" data-keyboard="</span><span class="k">true</span><span class="s">"&gt;
-</span>          <span class="p">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="err">="</span><span class="nc">row</span><span class="s">"&gt;
-</span>              <span class="p">&lt;</span><span class="n">ol</span> <span class="k">class</span><span class="err">="</span><span class="nc">carousel</span><span class="p">-</span><span class="n">indicators</span><span class="s">"&gt;
-</span>                  <span class="p">&lt;</span><span class="n">li</span> <span class="n">data</span><span class="p">-</span><span class="n">target</span><span class="p">=</span><span class="s">"#text-carousel"</span> <span class="n">data</span><span class="p">-</span><span class="n">slide</span><span class="p">-</span><span class="n">to</span><span class="p">=</span><span class="s">"0"</span> <span class="k">class</span><span class="err">="</span><span class="nc">active</span><span class="s">"&gt;&lt;/li&gt;
-</span>                  <span class="p">&lt;</span><span class="n">li</span> <span class="n">data</span><span class="p">-</span><span class="n">target</span><span class="p">=</span><span class="s">"#text-carousel"</span> <span class="n">data</span><span class="p">-</span><span class="n">slide</span><span class="p">-</span><span class="n">to</span><span class="p">=</span><span class="s">"1"</span><span class="p">&gt;&lt;/</span><span class="n">li</span><span class="p">&gt;</span>
-                  <span class="p">&lt;</span><span class="n">li</span> <span class="n">data</span><span class="p">-</span><span class="n">target</span><span class="p">=</span><span class="s">"#text-carousel"</span> <span class="n">data</span><span class="p">-</span><span class="n">slide</span><span class="p">-</span><span class="n">to</span><span class="p">=</span><span class="s">"2"</span><span class="p">&gt;&lt;/</span><span class="n">li</span><span class="p">&gt;</span>
-                  <span class="p">&lt;</span><span class="n">li</span> <span class="n">data</span><span class="p">-</span><span class="n">target</span><span class="p">=</span><span class="s">"#text-carousel"</span> <span class="n">data</span><span class="p">-</span><span class="n">slide</span><span class="p">-</span><span class="n">to</span><span class="p">=</span><span class="s">"3"</span><span class="p">&gt;&lt;/</span><span class="n">li</span><span class="p">&gt;</span>
-              <span class="p">&lt;/</span><span class="n">ol</span><span class="p">&gt;</span>
-          <span class="p">&lt;/</span><span class="n">div</span><span class="p">&gt;</span>
+<pre class="highlight html tab-html"><code><span class="nt">&lt;section</span> <span class="na">id=</span><span class="s">"quotes"</span> <span class="na">data-anchor=</span><span class="s">"quotes"</span> <span class="na">class=</span><span class="s">"module callout-container fp-auto-height"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"module-inner container"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"text-carousel"</span> <span class="na">class=</span><span class="s">"carousel slide"</span> <span class="na">data-ride=</span><span class="s">"carousel"</span> <span class="na">data-wrap=</span><span class="s">"true"</span> <span class="na">data-keyboard=</span><span class="s">"true"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+              <span class="nt">&lt;ol</span> <span class="na">class=</span><span class="s">"carousel-indicators"</span><span class="nt">&gt;</span>
+                  <span class="nt">&lt;li</span> <span class="na">data-target=</span><span class="s">"#text-carousel"</span> <span class="na">data-slide-to=</span><span class="s">"0"</span> <span class="na">class=</span><span class="s">"active"</span><span class="nt">&gt;&lt;/li&gt;</span>
+                  <span class="nt">&lt;li</span> <span class="na">data-target=</span><span class="s">"#text-carousel"</span> <span class="na">data-slide-to=</span><span class="s">"1"</span><span class="nt">&gt;&lt;/li&gt;</span>
+                  <span class="nt">&lt;li</span> <span class="na">data-target=</span><span class="s">"#text-carousel"</span> <span class="na">data-slide-to=</span><span class="s">"2"</span><span class="nt">&gt;&lt;/li&gt;</span>
+                  <span class="nt">&lt;li</span> <span class="na">data-target=</span><span class="s">"#text-carousel"</span> <span class="na">data-slide-to=</span><span class="s">"3"</span><span class="nt">&gt;&lt;/li&gt;</span>
+              <span class="nt">&lt;/ol&gt;</span>
+          <span class="nt">&lt;/div&gt;</span>
 
-          <span class="p">&lt;!--</span> <span class="n">Wrapper</span> <span class="k">for</span> <span class="n">slides</span> <span class="p">--&gt;</span>
-          <span class="p">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="err">="</span><span class="nc">row</span><span class="s">"&gt;
-</span>              <span class="p">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="err">="</span><span class="nc">col</span><span class="p">-</span><span class="n">md</span><span class="p">-</span><span class="n">offset</span><span class="p">-</span><span class="m">2</span> <span class="n">col</span><span class="p">-</span><span class="n">md</span><span class="p">-</span><span class="m">8</span><span class="s">"&gt;
-</span>                <span class="p">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="err">="</span><span class="nc">carousel</span><span class="p">-</span><span class="n">inner</span><span class="s">"&gt;
-</span>                  <span class="p">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="err">="</span><span class="nc">item</span> <span class="n">active</span><span class="s">"&gt;
-</span>                    <span class="p">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="err">="</span><span class="nc">carousel</span><span class="p">-</span><span class="n">content</span><span class="s">"&gt;
-</span>                      <span class="p">&lt;</span><span class="n">div</span><span class="p">&gt;</span>
-                      <span class="p">&lt;</span><span class="n">h4</span><span class="p">&gt;</span><span class="n">Learning</span> <span class="n">Together</span><span class="p">&lt;/</span><span class="n">h4</span><span class="p">&gt;</span>
-                      <span class="p">&lt;</span><span class="n">p</span><span class="p">&gt;</span><span class="n">Professors</span> <span class="n">and</span> <span class="n">peers</span> <span class="n">will</span> <span class="n">challenge</span> <span class="n">and</span> <span class="n">support</span> <span class="n">you</span> <span class="n">to</span> <span class="n">excel</span> <span class="k">in</span> <span class="n">the</span> <span class="k">class</span><span class="nc">room</span><span class="p">,</span> <span class="n">the</span> <span class="n">laboratory</span><span class="p">,</span> <span class="n">the</span> <span class="n">field</span> <span class="n">and</span> <span class="n">during</span> <span class="n">off</span><span class="p">-</span><span class="n">campus</span> <span class="n">programs</span><span class="p">.</span> <span class="n">Wherever</span> <span class="n">you</span> <span class="n">go</span> <span class="n">and</span> <span class="n">whatever</span> <span class="n">you</span> <span class="n">study</span><span class="p">,</span> <span class="n">you</span><span class="err">’</span><span class="n">ll</span> <span class="n">enjoy</span> <span class="n">questioning</span><span class="p">,</span> <span class="n">exploring</span> <span class="n">and</span> <span class="n">discovering</span> <span class="n">together</span><span class="p">.&lt;/</span><span class="n">p</span><span class="p">&gt;</span>
-                      <span class="p">&lt;/</span><span class="n">div</span><span class="p">&gt;</span>
-                    <span class="p">&lt;/</span><span class="n">div</span><span class="p">&gt;</span>
-                  <span class="p">&lt;/</span><span class="n">div</span><span class="p">&gt;</span>
-                  <span class="p">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="err">="</span><span class="nc">item</span><span class="s">"&gt;
-</span>                    <span class="p">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="err">="</span><span class="nc">carousel</span><span class="p">-</span><span class="n">content</span><span class="s">"&gt;
-</span>                      <span class="p">&lt;</span><span class="n">div</span><span class="p">&gt;</span>
-                      <span class="p">&lt;</span><span class="n">h4</span><span class="p">&gt;</span><span class="n">Preparing</span> <span class="n">to</span> <span class="n">Lead</span><span class="p">&lt;/</span><span class="n">h4</span><span class="p">&gt;</span>
-                      <span class="p">&lt;</span><span class="n">p</span><span class="p">&gt;</span><span class="n">Develop</span> <span class="n">the</span> <span class="n">skills</span> <span class="n">that</span> <span class="n">corporate</span><span class="p">,</span> <span class="n">political</span> <span class="n">and</span> <span class="n">educational</span> <span class="n">leaders</span> <span class="k">value</span> <span class="n">most</span><span class="p">.</span> <span class="n">Solve</span> <span class="n">problems</span> <span class="n">through</span> <span class="k">true</span> <span class="n">collaboration</span> <span class="n">and</span> <span class="n">refined</span> <span class="n">communication</span><span class="p">.</span> <span class="n">Analyze</span><span class="p">,</span> <span class="n">create</span> <span class="n">and</span> <span class="n">adapt</span><span class="p">.</span> <span class="n">Become</span> <span class="n">the</span> <span class="n">kind</span> <span class="n">of</span> <span class="n">leader</span> <span class="n">you</span><span class="err">’</span><span class="n">d</span> <span class="n">love</span> <span class="n">to</span> <span class="n">follow</span><span class="p">.&lt;/</span><span class="n">p</span><span class="p">&gt;</span>
-                      <span class="p">&lt;/</span><span class="n">div</span><span class="p">&gt;</span>
-                    <span class="p">&lt;/</span><span class="n">div</span><span class="p">&gt;</span>
-                  <span class="p">&lt;/</span><span class="n">div</span><span class="p">&gt;</span>
-                  <span class="p">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="err">="</span><span class="nc">item</span><span class="s">"&gt;
-</span>                    <span class="p">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="err">="</span><span class="nc">carousel</span><span class="p">-</span><span class="n">content</span><span class="s">"&gt;
-</span>                      <span class="p">&lt;</span><span class="n">div</span><span class="p">&gt;</span>
-                        <span class="p">&lt;</span><span class="n">h4</span><span class="p">&gt;</span><span class="n">Seeking</span> <span class="n">Solutions</span><span class="p">&lt;/</span><span class="n">h4</span><span class="p">&gt;</span>
-                        <span class="p">&lt;</span><span class="n">p</span><span class="p">&gt;</span><span class="n">Examine</span> <span class="n">the</span> <span class="n">world</span><span class="err">’</span><span class="n">s</span> <span class="n">most</span> <span class="n">complex</span> <span class="n">challenges</span> <span class="k">in</span> <span class="k">new</span> <span class="n">ways</span> <span class="err">—</span> <span class="k">from</span> <span class="n">different</span> <span class="n">angles</span> <span class="n">and</span> <span class="n">multiple</span> <span class="n">lenses</span><span class="p">,</span> <span class="n">and</span> <span class="k">in</span> <span class="n">real</span> <span class="n">world</span> <span class="n">settings</span> <span class="err">—</span> <span class="n">side</span> <span class="k">by</span> <span class="n">side</span> <span class="n">with</span> <span class="k">class</span><span class="nc">mates</span> <span class="n">and</span> <span class="n">faculty</span> <span class="k">from</span> <span class="n">a</span> <span class="n">range</span> <span class="n">of</span> <span class="n">backgrounds</span><span class="p">,</span> <span class="n">viewpoints</span> <span class="n">and</span> <span class="n">perspectives</span><span class="p">.&lt;/</span><span class="n">p</span><span class="p">&gt;</span>
-                      <span class="p">&lt;/</span><span class="n">div</span><span class="p">&gt;</span>
-                    <span class="p">&lt;/</span><span class="n">div</span><span class="p">&gt;</span>
-                  <span class="p">&lt;/</span><span class="n">div</span><span class="p">&gt;</span>
-                    <span class="p">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="err">="</span><span class="nc">item</span><span class="s">"&gt;
-</span>                      <span class="p">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="err">="</span><span class="nc">carousel</span><span class="p">-</span><span class="n">content</span><span class="s">"&gt;
-</span>                          <span class="p">&lt;</span><span class="n">div</span><span class="p">&gt;</span>
-                            <span class="p">&lt;</span><span class="n">h4</span><span class="p">&gt;</span><span class="n">Being</span> <span class="n">Mindful</span><span class="p">&lt;/</span><span class="n">h4</span><span class="p">&gt;</span>
-                            <span class="p">&lt;</span><span class="n">p</span><span class="p">&gt;</span><span class="n">College</span> <span class="n">should</span> <span class="n">be</span> <span class="n">more</span> <span class="n">than</span> <span class="n">just</span> <span class="n">tests</span> <span class="n">and</span> <span class="n">papers</span><span class="p">.</span> <span class="n">Discover</span> <span class="n">how</span> <span class="n">our</span> <span class="n">deep</span> <span class="n">commitment</span> <span class="n">to</span> <span class="n">integrity</span> <span class="n">and</span> <span class="n">respect</span> <span class="k">for</span> <span class="n">all</span> <span class="n">people</span> <span class="n">can</span> <span class="n">shape</span> <span class="n">the</span> <span class="n">way</span> <span class="n">you</span> <span class="n">learn</span> <span class="n">and</span> <span class="n">live</span> <span class="k">in</span> <span class="n">a</span> <span class="n">complex</span> <span class="n">and</span> <span class="n">diverse</span> <span class="n">world</span><span class="p">.&lt;/</span><span class="n">p</span><span class="p">&gt;</span>
-                          <span class="p">&lt;/</span><span class="n">div</span><span class="p">&gt;</span>
-                      <span class="p">&lt;/</span><span class="n">div</span><span class="p">&gt;</span>
-                    <span class="p">&lt;/</span><span class="n">div</span><span class="p">&gt;</span>
-          <span class="p">&lt;/</span><span class="n">div</span><span class="p">&gt;&lt;!--</span> <span class="p">/.</span><span class="n">carousel</span><span class="p">-</span><span class="n">inner</span> <span class="p">--&gt;</span>
-        <span class="p">&lt;/</span><span class="n">div</span><span class="p">&gt;</span>
-      <span class="p">&lt;/</span><span class="n">div</span><span class="p">&gt;&lt;!--</span> <span class="p">/.</span><span class="n">row</span> <span class="p">--&gt;</span>
-    <span class="p">&lt;/</span><span class="n">div</span><span class="p">&gt;&lt;!--</span> <span class="p">/.</span><span class="n">carousel</span> <span class="p">--&gt;</span>
-  <span class="p">&lt;/</span><span class="n">div</span><span class="p">&gt;&lt;!--</span> <span class="p">/.</span><span class="n">module</span><span class="p">-</span><span class="n">inner</span> <span class="p">--&gt;</span>
-<span class="p">&lt;/</span><span class="n">section</span><span class="p">&gt;&lt;!--</span> <span class="p">/.</span><span class="n">module</span> <span class="p">&amp;&amp;</span> <span class="p">/.</span><span class="n">callout</span><span class="p">-</span><span class="n">container</span> <span class="p">--&gt;</span>
+          <span class="c">&lt;!-- Wrapper for slides --&gt;</span>
+          <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+              <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-offset-2 col-md-8"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"carousel-inner"</span><span class="nt">&gt;</span>
+                  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"item active"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"carousel-content"</span><span class="nt">&gt;</span>
+                      <span class="nt">&lt;div&gt;</span>
+                      <span class="nt">&lt;h4&gt;</span>Learning Together<span class="nt">&lt;/h4&gt;</span>
+                      <span class="nt">&lt;p&gt;</span>Professors and peers will challenge and support you to excel in the classroom, the laboratory, the field and during off-campus programs. Wherever you go and whatever you study, you’ll enjoy questioning, exploring and discovering together.<span class="nt">&lt;/p&gt;</span>
+                      <span class="nt">&lt;/div&gt;</span>
+                    <span class="nt">&lt;/div&gt;</span>
+                  <span class="nt">&lt;/div&gt;</span>
+                  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"item"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"carousel-content"</span><span class="nt">&gt;</span>
+                      <span class="nt">&lt;div&gt;</span>
+                      <span class="nt">&lt;h4&gt;</span>Preparing to Lead<span class="nt">&lt;/h4&gt;</span>
+                      <span class="nt">&lt;p&gt;</span>Develop the skills that corporate, political and educational leaders value most. Solve problems through true collaboration and refined communication. Analyze, create and adapt. Become the kind of leader you’d love to follow.<span class="nt">&lt;/p&gt;</span>
+                      <span class="nt">&lt;/div&gt;</span>
+                    <span class="nt">&lt;/div&gt;</span>
+                  <span class="nt">&lt;/div&gt;</span>
+                  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"item"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"carousel-content"</span><span class="nt">&gt;</span>
+                      <span class="nt">&lt;div&gt;</span>
+                        <span class="nt">&lt;h4&gt;</span>Seeking Solutions<span class="nt">&lt;/h4&gt;</span>
+                        <span class="nt">&lt;p&gt;</span>Examine the world’s most complex challenges in new ways — from different angles and multiple lenses, and in real world settings — side by side with classmates and faculty from a range of backgrounds, viewpoints and perspectives.<span class="nt">&lt;/p&gt;</span>
+                      <span class="nt">&lt;/div&gt;</span>
+                    <span class="nt">&lt;/div&gt;</span>
+                  <span class="nt">&lt;/div&gt;</span>
+                    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"item"</span><span class="nt">&gt;</span>
+                      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"carousel-content"</span><span class="nt">&gt;</span>
+                          <span class="nt">&lt;div&gt;</span>
+                            <span class="nt">&lt;h4&gt;</span>Being Mindful<span class="nt">&lt;/h4&gt;</span>
+                            <span class="nt">&lt;p&gt;</span>College should be more than just tests and papers. Discover how our deep commitment to integrity and respect for all people can shape the way you learn and live in a complex and diverse world.<span class="nt">&lt;/p&gt;</span>
+                          <span class="nt">&lt;/div&gt;</span>
+                      <span class="nt">&lt;/div&gt;</span>
+                    <span class="nt">&lt;/div&gt;</span>
+          <span class="nt">&lt;/div&gt;</span><span class="c">&lt;!-- /.carousel-inner --&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;/div&gt;</span><span class="c">&lt;!-- /.row --&gt;</span>
+    <span class="nt">&lt;/div&gt;</span><span class="c">&lt;!-- /.carousel --&gt;</span>
+  <span class="nt">&lt;/div&gt;</span><span class="c">&lt;!-- /.module-inner --&gt;</span>
+<span class="nt">&lt;/section&gt;</span><span class="c">&lt;!-- /.module &amp;&amp; /.callout-container --&gt;</span>
 
 </code></pre>
 <p><img src='images/homepage/text-carousel.gif'/></p>
@@ -395,8 +398,8 @@ Remember — a happy kitten is an authenticated kitten!
 <h2 id="news-hero">News Hero</h2>
 
 <h2 id="news-events-slider">News &amp; Events Slider</h2>
-<pre class="highlight javascript tab-javascript"><code>  <span class="nx">ga</span><span class="p">(</span><span class="s1">'send'</span><span class="p">,</span> <span class="s1">'event'</span><span class="p">,</span> <span class="s1">'homepage-click'</span><span class="p">,</span>
-     <span class="s1">'news-click'</span><span class="p">,</span> <span class="s1">'Earlham competition to offer $40K in seed capital for world-changing business ideas'</span><span class="p">);</span>
+<pre class="highlight plaintext tab-plaintext"><code>  ga('send', 'event', 'homepage-click',
+     'news-click', 'Earlham competition to offer $40K in seed capital for world-changing business ideas');
 </code></pre>
 <h2 id="footer">Footer</h2>
 
@@ -438,7 +441,7 @@ Remember — a happy kitten is an authenticated kitten!
 <p>Earlham Day is a single day that Earlham seeks donations, to help continue the goals of Earlham. In prior years updates on the day had to manually be edited. Starting in 2017 donation data is updated in close to real-time.</p>
 
 <h2 id="earlham-day-goal-macro">Earlham Day - Goal (Macro)</h2>
-<pre class="highlight json tab-json--properties"><code><span class="w">    </span><span class="s2">"goalfolder"</span><span class="p">:{</span><span class="w">
+<pre class="highlight json tab-json"><code><span class="w">    </span><span class="s2">"goalfolder"</span><span class="p">:{</span><span class="w">
       </span><span class="s2">"Alias"</span><span class="p">:</span><span class="w"> </span><span class="s2">"goalfolder"</span><span class="p">,</span><span class="w">
       </span><span class="s2">"Name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Goal Folder"</span><span class="p">,</span><span class="w">
       </span><span class="s2">"Type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Content Picker"</span><span class="w">
@@ -451,7 +454,7 @@ Remember — a happy kitten is an authenticated kitten!
 <h3 id="donation-goals">Donation Goals</h3>
 
 <h2 id="earlham-day-recent-donations-macro">Earlham Day - Recent Donations (Macro)</h2>
-<pre class="highlight json tab-json--properties"><code><span class="w">    </span><span class="s2">"donationCount"</span><span class="p">:{</span><span class="w">
+<pre class="highlight json tab-json"><code><span class="w">    </span><span class="s2">"donationCount"</span><span class="p">:{</span><span class="w">
       </span><span class="s2">"Alias"</span><span class="p">:</span><span class="w"> </span><span class="s2">"donationCount"</span><span class="p">,</span><span class="w">
       </span><span class="s2">"Name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Max # of Donations"</span><span class="p">,</span><span class="w">
       </span><span class="s2">"Type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Number"</span><span class="w">
@@ -524,9 +527,10 @@ Remember — a happy kitten is an authenticated kitten!
       </div>
       <div class="dark-box">
           <div class="lang-selector">
-                <a href="#" data-language-name="javascript">javascript</a>
-                <a href="#" data-language-name="json--properties">json--properties</a>
-                <a href="#" data-language-name="csharp">csharp</a>
+                <a href="#" data-language-name="json">Properties</a>
+                <a href="#" data-language-name="plaintext">Google Analytics</a>
+                <a href="#" data-language-name="csharp">Razor Script</a>
+                <a href="#" data-language-name="html">HTML</a>
           </div>
       </div>
     </div>
