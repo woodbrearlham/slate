@@ -8,3 +8,5 @@ To generate a bit.ly url for a specific page in umbraco.
 <img src="/images/page/bitly-url.png" />
 
 To view the stats of the link add a "+" sign to the end of the short url.
+
+<aside class="notice">TODO: replace bit.ly with an earlham college short url</aside>
