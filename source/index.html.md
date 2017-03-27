@@ -15,6 +15,7 @@ includes:
   - home-page
   - page-features
   - hero-video
+  - url-shortener
   - app-features
   - errors
 
