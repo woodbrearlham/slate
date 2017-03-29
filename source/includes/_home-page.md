@@ -127,6 +127,10 @@ The homepage received a refresh Jan of 2017.
 ```
 <img src='/images/homepage/text-carousel.gif'/>
 
+Dependency | Description | Link to Doc
+-------------- | -------------- | --------------
+Slick Slider | JS/CSS | http://kenwheeler.github.io/slick/
+
 <aside class="notice">To Edit in Umbraco:</aside>
 
 - Settings > Templates > Earlham > Home
