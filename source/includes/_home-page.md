@@ -149,7 +149,67 @@ The homepage received a refresh Jan of 2017.
 ```
 <img src='/images/homepage/news-events.gif' />
 ## Footer
+```html
+  <footer class="module footer">
+      <div class="module-inner container">
+        <div class="row">
+			<div class="col-sm-3">
+            <p><img alt="Earlham College Footer Logo" class="footer-logo" src="/media/2395270/footer-logo-2.png" width="40%" height="40%" align="right" />Earlham College, an independent, residential college, aspires to provide the highest-quality undergraduate education in the liberal arts, including the sciences, shaped by the distinctive perspectives of the Religious Society of Friends (Quakers).</p>
+				<div class="footer-title">Translate Our Site</div>
+					  <div id="google_translate_element"></div>
+					<script type="text/javascript">
+					    function googleTranslateElementInit() { new google.translate.TranslateElement({ pageLanguage: 'en', gaTrack: true, gaId: 'UA-20893274-1' }, 'google_translate_element'); }
+					</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+          </div><!-- /.col-lg-3 -->
+          <div class="col-sm-3">
+            <ul>
+				<li><a href="/academics/academic-calendar/">Academic Calendar</a></li>
 
+<li><a href="/people/">Campus Directory</a></li>
+              <li><a href="/maps/">Visiting Campus</a></li>
+				<li><a href="http://www.earlhambookstore.com">Campus Store</a></li>
+              <li><a href="/human-resources-and-business-operations/current-openings/">Employment</a></li>
+              <li><a href="/consumer-information/">Consumer Information</a></li>
+              <li><a href="/marketing-and-communications/website-feedback-form/">Website Feedback Form</a></li>
+				<li><a href="/policies-and-handbooks/">Policies &amp; Handbooks</a></li>
+				<li><a href="/news/">News Headlines</a></li>
+				<li><a href="/events/">Events Calendar</a></li>
+				<li><a href="/news/today/">Today@Earlham</a></li>
+				<li><a href="http://library.earlham.edu">Earlham Libraries</a></li>
+				<li><a href="/mail/">Earlham Email</a></li>
+            </ul>
+          </div><!-- /.col-lg-3 -->
+          <div class="col-sm-3">
+            <address>
+              Earlham College<br>
+              801 National Road West<br>
+              Richmond, Indiana<br>
+              47374-4095<br>
+				1-765-983-1200 &mdash; Main Switchboard<br/>
+				1-800-EARLHAM (327-5426) &mdash; Admissions<br/>
+            </address>
+            <div class="module social">
+              <div class="module-inner">
+                <a href="https://www.facebook.com/earlhamcollege" target="_blank" class="btn btn-facebook"><i class="icon-facebook icon-large"></i></a>
+                <a href="https://twitter.com/earlham1847" target="_blank" class="btn btn-twitter"><i class="icon-twitter icon-large"></i></a>
+                <a href="http://www.youtube.com/earlhamcollege" target="_blank" class="btn btn-youtube"><i class="icon-youtube icon-large"></i></a>
+				<a href="http://instagram.com/earlhamcollege1847" target="_blank" class="btn btn-instagram"><i class="icon-instagram icon-large"></i></a>
+				<a href="http://www.snapchat.com/add/earlhamcollege" title="snapchat" target="_blank" class="btn btn-snapchat"><i class="fa fa-snapchat-ghost" aria-hidden="true"></i></a>
+                <a href="http://earlham.edu/news/rss/" target="_blank" class="btn btn-rss"><i class="icon-rss icon-large"></i></a>
+              </div>
+            </div>
+          </div><!-- /.col-lg-3 -->
+          <div class="col-sm-3">
+				<iframe frameborder="0" scrolling="no" allowTransparency="true" width="150" height="166" src="https://cdn.yoshki.com/iframe/54732.html" style="border:0px; margin:0px; padding:0px; backgroundColor:transparent;"></iframe></p>
+          </div><!-- /.col-lg-3 -->
+        </div><!-- /.row -->
+      </div><!-- /.footer-inner -->
+    </footer><!-- /.footer -->
+```
 ### Footer Links
+Dependency | Description | Link to Doc
+-------------- | -------------- | --------------
+jQuery | Functionality | https://api.jquery.com/
+bootstrap | Design | http://getbootstrap.com/
 
 ### Social Links
