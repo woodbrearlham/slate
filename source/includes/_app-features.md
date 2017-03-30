@@ -29,4 +29,5 @@ Earlham Day is a single day that Earlham seeks donations, to help continue the g
 <aside class="notice">AJAX Automatically loads new data without page refresh</aside>
 <img src='/images/apps/earlhamday/recent-donations.png'/>
 
-## Podcasts
+## Podcasts [Macro]
+- The macro takes a soundcloud username ex:earlhamcollege
