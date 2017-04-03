@@ -30,4 +30,25 @@ Earlham Day is a single day that Earlham seeks donations, to help continue the g
 <img src='/images/apps/earlhamday/recent-donations.png'/>
 
 ## Podcasts [Macro]
-- The macro takes a soundcloud username ex:earlhamcollege
+
+<aside class="notice">The macro takes a soundcloud username ex:earlhamcollege</aside>
+
+
+### Main Podcasts Home page
+
+Dependency | Description | Link to Doc
+-------------- | -------------- | --------------
+Readmore.js | To collapse long descriptions of podcasts to a specific height. | http://jedfoster.com/Readmore.js/
+
+**Image**
+<img src='/images/apps/podcasts/podcast-home-page.png'/>
+
+
+### Individual Podcasts pages
+
+Dependency | Description | Link to Doc
+-------------- | -------------- | --------------
+Clipboard.js | To copy link of podcast to clipboard. | https://clipboardjs.com/
+
+**Image**
+<img src='/images/apps/podcasts/podcast-individual-page.png'/>

@@ -240,19 +240,19 @@ Image that points to the Admissions page.
 ### Footer Links
 
 <ul>
-<li><a href="#">Academic Calendar</a></li>
-<li><a href="#">Campus Directory</a></li>
-<li><a href="#">Visiting Campus</a></li>
-<li><a href="#">Campus Store</a></li>
-<li><a href="#">Employment</a></li>
-<li><a href="#">Consumer Information</a></li>
-<li><a href="#">Website Feedback Form</a></li>
-<li><a href="#">Policies &amp; Handbooks</a></li>
-<li><a href="#">News Headlines</a></li>
-<li><a href="#">Events Calendar</a></li>
-<li><a href="#">Today@Earlham</a></li>
-<li><a href="#">Earlham Libraries</a></li>
-<li><a href="#">Earlham Email</a></li>
+<li><a href="#footer">Academic Calendar</a></li>
+<li><a href="#footer">Campus Directory</a></li>
+<li><a href="#footer">Visiting Campus</a></li>
+<li><a href="#footer">Campus Store</a></li>
+<li><a href="#footer">Employment</a></li>
+<li><a href="#footer">Consumer Information</a></li>
+<li><a href="#footer">Website Feedback Form</a></li>
+<li><a href="#footer">Policies &amp; Handbooks</a></li>
+<li><a href="#footer">News Headlines</a></li>
+<li><a href="#footer">Events Calendar</a></li>
+<li><a href="#footer">Today@Earlham</a></li>
+<li><a href="#footer">Earlham Libraries</a></li>
+<li><a href="#footer">Earlham Email</a></li>
 </ul>
 
 
