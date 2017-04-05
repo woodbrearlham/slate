@@ -136,7 +136,29 @@ Slick Slider | JS/CSS | http://kenwheeler.github.io/slick/
 - Settings > Templates > Earlham > Home
 
 ## Be An Earlhamite
+
+```html
+<section class="module join callout-container">
+    	<div class="module-inner container ">
+      		<div class="row text-center">
+        		<div class="col-sm-12 col-md-8 col-md-offset-2 col-lg-offset-2 ">
+      				<a href="/admissions" class="admissions-click">
+		 				<div class="join-cta "><i class="fa fa-chevron-right"></i></div>
+					</a>
+      			</div>
+    		</div>
+    	</div>
+	</section>
+
+```
+
 <img src='/images/homepage/be-an-earlhamite.gif' />
+
+Image that points to the Admissions page.
+
+<aside class="notice">To Edit in Umbraco:</aside>
+- Settings > Templates > Earlham 
+
 
 ## EPIC section
 <img src='/images/homepage/epic-section.png' />
@@ -152,7 +174,9 @@ Slick Slider | JS/CSS | http://kenwheeler.github.io/slick/
      'news-click', 'Earlham competition to offer $40K in seed capital for world-changing business ideas');
 ```
 <img src='/images/homepage/news-events.gif' />
+
 ## Footer
+
 ```html
   <footer class="module footer">
       <div class="module-inner container">
@@ -210,10 +234,38 @@ Slick Slider | JS/CSS | http://kenwheeler.github.io/slick/
       </div><!-- /.footer-inner -->
     </footer><!-- /.footer -->
 ```
+
+<img src='/images/homepage/footer.png'/>
+
 ### Footer Links
-Dependency | Description | Link to Doc
--------------- | -------------- | --------------
-jQuery | Functionality | https://api.jquery.com/
-bootstrap | Design | http://getbootstrap.com/
+
+<ul>
+<li><a href="#footer">Academic Calendar</a></li>
+<li><a href="#footer">Campus Directory</a></li>
+<li><a href="#footer">Visiting Campus</a></li>
+<li><a href="#footer">Campus Store</a></li>
+<li><a href="#footer">Employment</a></li>
+<li><a href="#footer">Consumer Information</a></li>
+<li><a href="#footer">Website Feedback Form</a></li>
+<li><a href="#footer">Policies &amp; Handbooks</a></li>
+<li><a href="#footer">News Headlines</a></li>
+<li><a href="#footer">Events Calendar</a></li>
+<li><a href="#footer">Today@Earlham</a></li>
+<li><a href="#footer">Earlham Libraries</a></li>
+<li><a href="#footer">Earlham Email</a></li>
+</ul>
+
 
 ### Social Links
+
+Social Medium | Link
+-------------- | --------------
+Facebook | https://www.facebook.com/earlhamcollege
+Twitter | https://twitter.com/earlham1847
+Instagram | http://instagram.com/earlhamcollege1847
+SnapChat | http://www.snapchat.com/add/earlhamcollege
+Youtube | http://www.youtube.com/earlhamcollege
+RSS | http://earlham.edu/news/rss/
+
+<aside class="notice">To Edit in Umbraco:</aside>
+- Settings > Templates > Earlham
