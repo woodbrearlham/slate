@@ -17,6 +17,8 @@ includes:
   - hero-video
   - url-shortener
   - app-features
+  - layouts
+  - navigation
   - errors
 
 search: true
